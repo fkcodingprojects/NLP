@@ -21,13 +21,13 @@ In this step, the dataset is loaded from a TSV file using Pandas, and initial ex
 
 Visualizing the distribution of review lengths using a histogram.
 
-![Review Length Distribution](images/review_length_distribution.png)
+![Review Length Distribution]
 
 ### Box Plot of Review Lengths
 
 Understanding central tendency, dispersion, and outliers using a box plot.
 
-![Box Plot of Review Lengths](images/box_plot_review_lengths.png)
+![Box Plot of Review Lengths]
 
 ## Common Words Analysis
 
@@ -35,13 +35,13 @@ Understanding central tendency, dispersion, and outliers using a box plot.
 
 Identifying and visualizing the most common words in positive reviews.
 
-![Most Common Words in Positive Reviews](images/most_common_positive_words.png)
+![Most Common Words in Positive Reviews]
 
 ### Most Common Words in Negative Reviews
 
 Exploring the most common words in negative reviews through visualization.
 
-![Most Common Words in Negative Reviews](images/most_common_negative_words.png)
+![Most Common Words in Negative Reviews]
 
 ## Sentiment-based Comparison
 
@@ -49,20 +49,20 @@ Exploring the most common words in negative reviews through visualization.
 
 Creating word clouds to represent frequent words in positive and negative reviews.
 
-![Positive Review Word Cloud](images/positive_review_wordcloud.png)
-![Negative Review Word Cloud](images/negative_review_wordcloud.png)
+![Positive Review Word Cloud]
+![Negative Review Word Cloud]
 
 ### Positive and Negative Box Plots of Review Lengths
 
 Comparing review lengths between positive and negative reviews.
 
-![Positive vs. Negative Review Lengths](images/box_plot_sentiment_review_lengths.png)
+![Positive vs. Negative Review Lengths]
 
 ### Positive and Negative Reviews Lengths by Sentiment
 
 Visualizing review length distribution using kernel density estimates.
 
-![Review Lengths by Sentiment](images/kde_sentiment_review_lengths.png)
+![Review Lengths by Sentiment]
 
 ## N-Grams Analysis
 
@@ -70,8 +70,8 @@ Visualizing review length distribution using kernel density estimates.
 
 Identifying and visualizing top N-Grams (2-word combinations) in both positive and negative reviews.
 
-![Top N-Grams in Positive Reviews](images/top_positive_ngrams.png)
-![Top N-Grams in Negative Reviews](images/top_negative_ngrams.png)
+![Top N-Grams in Positive Reviews]
+![Top N-Grams in Negative Reviews]
 
 ## Conclusion
 
