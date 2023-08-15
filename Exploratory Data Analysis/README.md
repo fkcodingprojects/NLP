@@ -1,6 +1,6 @@
 # Exploratory Data Analysis of Restaurant Reviews
 
-Welcome to the Exploratory Data Analysis (EDA) of restaurant reviews! This document provides a comprehensive analysis of restaurant reviews using Python and data visualization techniques. Below, you'll find a breakdown of the steps involved and the visualizations generated.
+Welcome to the Exploratory Data Analysis (EDA) of restaurant reviews! This document provides a comprehensive analysis of restaurant reviews using Python and data visualization techniques.
 
 ## Table of Contents
 
@@ -13,68 +13,53 @@ Welcome to the Exploratory Data Analysis (EDA) of restaurant reviews! This docum
 
 ## Data Loading and Basic Exploration
 
-In this step, the dataset is loaded from a TSV file using Pandas, and initial exploratory insights are gained.
+In this initial step, the dataset is loaded from a TSV file using Pandas, and basic exploratory insights are gained.
 
 ## Review Length Analysis
 
-### Distribution of Review Lengths
+Analyzing the distribution and lengths of reviews is crucial to understand the overall spread of review text.
 
-Visualizing the distribution of review lengths using a histogram.
-
-![Review Length Distribution]
-
-### Box Plot of Review Lengths
-
-Understanding central tendency, dispersion, and outliers using a box plot.
-
-![Box Plot of Review Lengths]
+### - Distribution of Review Lengths
+Visualizing the distribution of review lengths using a histogram helps us identify the most common lengths and any potential outliers.
 
 ## Common Words Analysis
 
-### Most Common Words in Positive Reviews
+Understanding the most common words used in both positive and negative reviews provides insights into the overall sentiment and themes expressed by reviewers.
 
-Identifying and visualizing the most common words in positive reviews.
+### - Most Common Words in Positive Reviews
+Identifying the most common words in positive reviews sheds light on the positive aspects highlighted by customers.
 
-![Most Common Words in Positive Reviews]
-
-### Most Common Words in Negative Reviews
-
-Exploring the most common words in negative reviews through visualization.
-
-![Most Common Words in Negative Reviews]
+### - Most Common Words in Negative Reviews
+Exploring the most common words in negative reviews reveals the pain points and concerns voiced by customers.
 
 ## Sentiment-based Comparison
 
-### Positive and Negative Review Word Clouds
+Comparing positive and negative reviews enables us to understand the differences in review lengths and frequently used words between the two sentiments.
 
-Creating word clouds to represent frequent words in positive and negative reviews.
+### - Positive Review Word Cloud
+A word cloud for positive reviews visually represents frequently occurring words, giving a quick overview of positive sentiments.
 
-![Positive Review Word Cloud]
-![Negative Review Word Cloud]
+### - Negative Review Word Cloud
+Similarly, a word cloud for negative reviews visually represents frequently used words, providing insight into negative sentiments.
 
-### Positive and Negative Box Plots of Review Lengths
+### - Positive and Negative Box Plots of Review Lengths
+Comparing box plots of review lengths between positive and negative reviews highlights differences in review lengths.
 
-Comparing review lengths between positive and negative reviews.
-
-![Positive vs. Negative Review Lengths]
-
-### Positive and Negative Reviews Lengths by Sentiment
-
-Visualizing review length distribution using kernel density estimates.
-
-![Review Lengths by Sentiment]
+### - Positive and Negative Reviews Lengths by Sentiment
+Using kernel density estimates, we compare the distribution of review lengths by sentiment, revealing patterns in review length variation.
 
 ## N-Grams Analysis
 
-### Top N-Grams in Positive and Negative Reviews
+N-grams (combinations of adjacent words) offer deeper insights into common phrases and expressions used in reviews.
 
-Identifying and visualizing top N-Grams (2-word combinations) in both positive and negative reviews.
+### - Top N-Grams in Positive Reviews
+Analyzing top N-grams in positive reviews helps us identify commonly expressed positive sentiments and experiences.
 
-![Top N-Grams in Positive Reviews]
-![Top N-Grams in Negative Reviews]
+### - Top N-Grams in Negative Reviews
+Analyzing top N-grams in negative reviews highlights commonly shared negative experiences and concerns.
 
 ## Conclusion
 
-This EDA provides valuable insights into the distribution of review lengths, sentiment-based trends, common words, and frequently occurring phrases in restaurant reviews. Feel free to use these insights for further analysis and decision-making.
+This EDA provides valuable insights into review length distribution, common words in positive and negative sentiments, and frequently used phrases. Utilize these insights to inform further analysis and decision-making.
 
-For detailed code and examples, refer to the Jupyter Notebook provided in this repository.
+For detailed code and examples, please refer to the Jupyter Notebook provided in this repository.
